@@ -15,8 +15,8 @@ ln -sf $PWD/fortune/* /usr/share/fortune/
 Debian
 ```
 sudo apt install cowsay fortune
-ln -sf $PWD/cowsay/* /usr/share/cowsay/cows/
-ln -sf $PWD/fortune/* /usr/share/games/fortunes/
+sudo ln -sf $PWD/cowsay/* /usr/share/cowsay/cows/
+sudo ln -sf $PWD/fortune/* /usr/share/games/fortunes/
 ```
 
 ## Usage
@@ -43,3 +43,18 @@ ln -sf $PWD/fortune/* /usr/share/games/fortunes/
         `~~~~---__   \___//   __---~~~~'
                   ~~-_______-~~
 ```
+
+### Message of the Day
+The Enterprise D can greet you with a quote on login by adding to `motd`.
+
+Debian  
+
+`sudo vim /etc/update-motd.d/99-footer`
+
+```
+#!/bin/sh
+
+exec /usr/games/fortune sttng | /usr/games/cowsay -f enterprised
+```
+
+
