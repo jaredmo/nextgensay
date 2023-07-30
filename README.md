@@ -1,6 +1,26 @@
 # nextgensay
 
-nextgensay uses `cowsay` and `fortune` to print TNG quotes on the command line.
+nextgensay uses `cowsay` and `fortune` to print Star Trek TNG quotes on the command line.
+
+## Installation
+
+### Install cowsay and fortune
+Arch
+```
+sudo pacman -S cowsay fortune-mod
+ln -sf $PWD/cowsay/* /usr/share/cows/
+ln -sf $PWD/fortune/* /usr/share/fortune/
+```
+
+Debian
+```
+sudo apt install cowsay fortune
+ln -sf $PWD/cowsay/* /usr/share/cowsay/cows/
+ln -sf $PWD/fortune/* /usr/share/games/fortunes/
+```
+
+## Usage
+`fortune sttng | cowsay -f enterprised`
 
 ```
  _________________________________________ 
