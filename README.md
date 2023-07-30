@@ -1,1 +1,1 @@
-# cowsay-enterprised
+# tngsay
