@@ -4,35 +4,11 @@ nextgensay uses `cowsay` and `fortune` to print TNG quotes on the command line.
 
 ```
  _________________________________________ 
-/ Felis catus is your taxonomic           \
-| nomenclature, An endothermic quadruped, |
-| carnivorous by nature; Your visual,     |
-| olfactory, and auditory senses          |
-| Contribute to your hunting skills and   |
-| natural defenses.                       |
+/ If there's nothing wrong with           \
+| me...maybe there's something wrong with |
+| the universe!                           |
 |                                         |
-| I find myself intrigued by your         |
-| subvocal oscillations, A singular       |
-| development of cat communications That  |
-| obviates your basic hedonistic          |
-| predilection For a rhythmic stroking of |
-| your fur to demonstrate affection.      |
-|                                         |
-| A tail is quite essential for your      |
-| acrobatic talents; You would not be so  |
-| agile if you lacked its counterbalance. |
-| And when not being utilized to aid in   |
-| locomotion, It often serves to          |
-| illustrate the state of your emotion.   |
-|                                         |
-| O Spot, the complex levels of behavior  |
-| you display Connote a fairly            |
-| well-developed cognitive array. And     |
-| though you are not sentient, Spot, and  |
-| do not comprehend, I nonetheless        |
-| consider you a true and valued friend.  |
-|                                         |
-\ -- Data, "Schisms"                      /
+\ -- Beverly Crusher, "Remember Me"       /
  ----------------------------------------- 
     \
      \
@@ -46,5 +22,4 @@ nextgensay uses `cowsay` and `fortune` to print TNG quotes on the command line.
        \_______--~  //~~~\  ~--_______//
         `~~~~---__   \___//   __---~~~~'
                   ~~-_______-~~
-
 ```
