@@ -8,8 +8,8 @@ nextgensay uses `cowsay` and `fortune` to print "Star Trek: The Next Generation"
 Arch
 ```
 sudo pacman -S cowsay fortune-mod
-ln -sf $PWD/cowsay/* /usr/share/cows/
-ln -sf $PWD/fortune/* /usr/share/fortune/
+sudo ln -sf $PWD/cowsay/* /usr/share/cows/
+sudo ln -sf $PWD/fortune/* /usr/share/fortune/
 ```
 
 Debian
