@@ -1,6 +1,6 @@
 # nextgensay
 
-nextgensay uses `cowsay` and `fortune` to print Star Trek TNG quotes on the command line.
+nextgensay uses `cowsay` and `fortune` to print Star Trek: The Next Generation quotes on the terminal.
 
 ## Installation
 
