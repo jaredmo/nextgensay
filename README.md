@@ -14,7 +14,7 @@ sudo ln -sf $PWD/fortune/* /usr/share/fortune/
 
 Debian
 ```
-sudo apt install cowsay fortune
+sudo apt install cowsay fortunes
 sudo ln -sf $PWD/cowsay/* /usr/share/cowsay/cows/
 sudo ln -sf $PWD/fortune/* /usr/share/games/fortunes/
 ```
